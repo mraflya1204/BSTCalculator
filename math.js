@@ -5,7 +5,7 @@ Array.prototype.forEach.call(buttons, function(button) {
     button.addEventListener("click", function() {
         if (button.textContent != "=" &&
             button.textContent != "AC" &&
-            button.textContent != "x" &&
+            button.textContent != "×" &&
             button.textContent != "÷" &&
             button.textContent != "√" &&
             button.textContent != "x ²" &&
@@ -28,7 +28,7 @@ Array.prototype.forEach.call(buttons, function(button) {
             equals();
         } else if (button.textContent === "AC") {
             clear();
-        } else if (button.textContent === "x") {
+        } else if (button.textContent === "×") {
             multiply();
         } else if (button.textContent === "÷") {
             divide();
