@@ -1,11 +1,12 @@
-/* General Styles */
+
 body {
     background-color: #1c1c1c;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
+    width: auto;
     margin: 0;
 }
 
@@ -75,4 +76,3 @@ div {
     display: inline-block;
     margin: 0 10px;
 }
-
